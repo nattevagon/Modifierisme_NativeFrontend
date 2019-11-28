@@ -1,7 +1,3 @@
-body{
-    background-color: white;
-}
-
 .nav-item{
     font-weight: 700;
     float: left;
@@ -13,21 +9,6 @@ nav{
     background-color: #131313;
 }
 
-.row img{
-    height: 200px;
-}
-
-.nav-control{
-    position: absolute;
-    right: 0%;
-    transform: translateX(-50%);
-    vertical-align: center;
-}
-
-.nav-space{
-    margin-left: 20px;
-}
-
 .homeimage img {
     width: 100%; 
 }
@@ -37,3 +18,45 @@ nav{
     top: 50%;
     left: 60%;
 }
+
+.menu {
+    margin-top: 30px;
+}
+
+.card{
+    opacity: 0.8;
+    transition: 0.5s ease-out;
+    background-size: cover;
+    height: 100%;
+    border: none;  
+}
+
+.item{
+    height: 500px;
+    width: 100%;
+}
+
+#item1 {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("../images/men.jpg");
+}
+
+#item2 {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("../images/women.jpg");
+}
+
+#item3 {
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("../images/children.jpg");
+}
+
+.card:hover {
+    transition: 0.5s ease-in;
+    opacity: 1;
+}
+
+.card h2{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    color: white;
+}
+

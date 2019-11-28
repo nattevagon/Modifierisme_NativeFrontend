@@ -20,7 +20,7 @@
   <link rel="icon" href="images/modify.png">
   <title>Modifier</title>
 </head>
-<nav class="navbar navbar-expand-lg navbar-dark mb-5">
+<nav class="navbar navbar-expand-lg navbar-dark">
   <a class="navbar-brand" href="index.html"><img src="images/modify.png" width="150px"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,17 +32,23 @@
         <a class="nav-link" href="shop.html">SHOP</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="about_us.html">ABOUT US</a>
+        <a class="nav-link" href="contact_us.html">CONTACT US</a>
       </li>
     </ul>
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="cart.html"><i class="fa fa-shopping-cart"></i> CART</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="profile.html"><i class="fa fa-user-circle-o"></i> PROFILE</a>
-      </li>
-    </ul>
+        <li class="nav-item">
+          <a class="nav-link" href="cart.html"><i class="fa fa-shopping-cart" style="font-size:25px"></i></a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" href="profile.html"><i class="fa fa-user-circle-o" style="font-size:25px"></i></a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="#">Profile</a>
+              <a class="dropdown-item" href="#">My Order</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Sign Out</a>
+            </div>
+          </li>
+      </ul>
   </div>
 </nav>
 <div class="homeimage">
